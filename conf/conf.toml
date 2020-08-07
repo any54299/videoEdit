@@ -1,0 +1,21 @@
+[data]
+video = "E:/video/video/data/amazing-birds.mp4"
+subtitle = "E:/video/video/data/subtitle.csv"
+picture = "E:/video/video/data/watermark.csv"
+edit = "E:/video/video/data/edit.csv"
+output = "E:/video/video/reslt/output.mp4"
+picout = "E:/video/video/reslt/picoutput.mp4"
+
+[subtitle-conf]
+txt_color="white"
+fontsize=35
+font="C:/Windows/fonts/simhei.ttf"
+position=['center','bottom']
+
+[picture-conf]
+height=50
+position=['center','bottom']
+
+[merge-data]
+file=["E:/video/videosrt/reslt/output.mp4","E:/video/videosrt/reslt/picoutput.mp4"]
+mergeOut="E:/video/videosrt/reslt/merge.mp4"
